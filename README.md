@@ -18,7 +18,10 @@ To get started, simply clone this repository to your local machine:
 ```bash
 git clone https://github.com/PhotonMastr/HollowSunSaveEditor.git
 ```
-
+Then, CD into the directory
+```bash
+cd HollowSunSaveEditor
+```
 Then, use the makefile to build
 #### On linux 
 
