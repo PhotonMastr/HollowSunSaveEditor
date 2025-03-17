@@ -1,0 +1,6 @@
+FourWayCrossroad
+100 100
+2
+100 100
+Encrypted_Data_Chip 1
+Health_Potion 2
