@@ -1,3 +1,11 @@
+// Hollow Sun Save editor
+// Written By Tristan F.
+// https://github.com/PhotonMastr/
+// First created: March 17, 2025
+// Last modified: March 17, 2025
+
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
