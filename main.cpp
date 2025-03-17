@@ -67,7 +67,7 @@ void editSaveFile(const std::string& filename) {
     while (!done) {
         clearConsole();
         std::cout << "Select the trait you want to edit:\n";
-        std::cout << "1. Location\n";
+        std::cout << "1. Location (Mildly Risky)\n";
         std::cout << "2. Health\n";
         std::cout << "3. Stamina\n";
         std::cout << "4. Money\n";
@@ -87,6 +87,7 @@ void editSaveFile(const std::string& filename) {
 
                 while (!validLocation) {
                     std::cout << "Select a new location from the following options (0 to go back to exit):\n";
+                    std::cout << "NOTE: If you do not know what the locations correspond to\nBest to just leave this alone. Can put you where you don't intend.\n";
                     for (size_t i = 0; i < validLocations.size(); ++i) {
                         std::cout << i + 1 << ". " << validLocations[i] << "\n";
                     }
