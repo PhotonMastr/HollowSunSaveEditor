@@ -8,7 +8,8 @@ A simple command-line tool to edit and manage save files for the game **Hollow S
 - Update the location in the save file
 - Edit money and account money values
 - Simple text-based interface for easy usage
-
+## Directory
+Make sure you put the executable in the same directory as Hollow Sun, that way, your save file can be read
 ## Installation
 Simply go to releases, go to the latest release, and download the relevant executable file.
 ## Installation from source
@@ -34,5 +35,5 @@ mingw32-make
 ```
 
 ## Notes
-Edit your save at will, however it definltey loses some fun in the game.
+Edit your save at will, however it definitely loses some fun in the game.
 Be careful with location editing, maybe look through the code to see where the location is bringing you.
